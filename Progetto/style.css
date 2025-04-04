@@ -1,0 +1,77 @@
+h1,h2,h3,h4, h5, .h1, .h2, .h3, .h4, .h5{
+    font-family: "Comfortaa", serif;
+}
+
+:root{
+    --y: rgb(112, 46, 174);
+    --b: rgb(162, 165, 5);
+    --w: rgb(18, 141, 160);
+}
+
+
+.text-y{
+    color: var(--y);
+}
+
+.text-b{
+    color: var(--b);
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.bg-y{
+    background-color: var(--y);
+}
+.bg-b{
+
+    background-color: var(--b);
+}
+.bg-w{
+    background-color: var(--w);
+}
+
+#navbar{
+    transition: 0.6s;
+    height: 86px;
+}
+
+#containerfluid{
+    transition: 0.6s;
+}
+
+.nav-link:hover{
+    color: var(--w);
+
+}
+
+.text-w:hover{
+    color: var(--y);
+}
+
+.header {
+    background-image: url(./media/202124444-b77001fb-2e75-45f1-bfda-a9534a214ca4.jpg);
+    background-position: center;
+    background-size: cover; /* "contain" per vedere tutta l'immagine senza tagliarla */
+    background-repeat: no-repeat; /* Impedisce la ripetizione dell'immagine */
+    width: 100vw; /* Larghezza del 100% della finestra */
+    height: 100vh; /* Altezza del 100% della finestra */
+}
+
+.ann-header{
+    height: 100vh;
+    background-image: url(./media/line-up-piloti_2021_sbk_2020-1024x576.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.btn-purple {
+    background-color: #800080;
+    border-color: #800080;
+    border-width: 3px; /* Increase the border width */
+    border-style: solid; /* Ensure the border style is solid */
+}
+
+
